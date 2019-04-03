@@ -22,4 +22,6 @@ export class HeroesService {
   getHeroeDetail(HeroeID): Observable<Heroe> {
     return this.http.get<Heroe>(API_URL + "data-" + Heroe+".json");
   }
+
+
 }
